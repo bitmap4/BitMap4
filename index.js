@@ -126,7 +126,7 @@ async function main() {
   );
 
   // Hex color codes for the color blocks
-  const colors = ["474342", "fbedf6", "c9594d", "f8b9b2", "ae9c9d"];
+  const colors = ["8FA977", "E15B5B", "FFF4E0", "4A3B38", "B4C5A9"];
   await updateReadme({ totalStars, totalCommitsInPastYear, colors });
 }
 
