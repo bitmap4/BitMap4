@@ -1,5 +1,5 @@
 {
-  "name": "anordinaryusername",
+  "name": "bitmap4",
   "version": "1.0.0",
   "description": "A profile README that kind of looks like a neofetch",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnOrdinaryUsername/AnOrdinaryUsername.git"
+    "url": "git+https://github.com/bitmap4/bitmap4.git"
   },
   "author": "AnOrdinaryUsername",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnOrdinaryUsername/AnOrdinaryUsername/issues"
+    "url": "https://github.com/bitmap4/bitmap4/issues"
   },
-  "homepage": "https://github.com/AnOrdinaryUsername/AnOrdinaryUsername#readme",
+  "homepage": "https://github.com/btimap4/bitmap4#readme",
   "dependencies": {
     "@octokit/rest": "^18.5.5",
     "dotenv": "^10.0.0",
