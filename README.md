@@ -4,12 +4,12 @@
 
 <img align="left" src="https://i.redd.it/h7dae4o0uk461.jpg" alt="Bakaguya made by レヴィノス (https://www.pixiv.net/en/artworks/80962527)" width="320" /> 
 
-```csharp
+```css
 bitmap4@github
 -------------------------
 OS: Arch Linux, WSL Ubuntu on Windows 11, iOS
 Shell: zsh 5.8
-<!-- Pronouns: He/Him -->
+Pronouns: He/Him
 Uptime: 
 Location: Hyderabad, IN
 Frameworks: React
@@ -18,7 +18,7 @@ Languages: JavaScript, TypeScript,
            C, C++, MarkDown, LaTeX,
            
 Learning: Node.js, Next.js, Dart
-<!-- Hobbies: Gaming, Music, -->
+Hobbies: Gaming, Music
 Commits: 0
 Stars: 0
 Discord: bitmap4
