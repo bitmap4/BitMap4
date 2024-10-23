@@ -37,7 +37,7 @@ async function calculateTotalCommits(data, cutoffDate) {
 
   data.forEach((repo) => {
     const options = {
-      owner: githubUsername,
+      owner: repo.owner.login,
       repo: repo.name,
     };
 
