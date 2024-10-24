@@ -25,5 +25,5 @@ Email: abhyudit.singh@research.iiit.ac.in
 ```
 <p align="left">
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="#8FA977" src="https://via.placeholder.com/15/8FA977/000000?text=+" width="25" height="20" /><img alt="#E15B5B" src="https://via.placeholder.com/15/E15B5B/000000?text=+" width="25" height="20" /><img alt="#FFF4E0" src="https://via.placeholder.com/15/FFF4E0/000000?text=+" width="25" height="20" /><img alt="#4A3B38" src="https://via.placeholder.com/15/4A3B38/000000?text=+" width="25" height="20" /><img alt="#B4C5A9" src="https://via.placeholder.com/15/B4C5A9/000000?text=+" width="25" height="20" />
+  <div style="background: #8FA977; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #E15B5B; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #FFF4E0; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #4A3B38; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #B4C5A9; height: 20px; width: 25px;display: inline-block;"></div>
 </p>
