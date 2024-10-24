@@ -10,7 +10,7 @@ bitmap4@github
 OS: Arch Linux, WSL Ubuntu on Windows 11, iOS
 Shell: zsh 5.8
 Pronouns: He/Him
-Uptime: 
+Uptime: 18 years, 8 months, 20 days
 Location: Hyderabad, IN
 Frameworks: React
 Languages: JavaScript, TypeScript,
@@ -19,14 +19,13 @@ Languages: JavaScript, TypeScript,
 Learning: Node.js, Next.js, Dart
 Hobbies: Gaming, Music
 Commits: 0
-Stars: 0
 Discord: bitmap4
 Email: abhyudit.singh@research.iiit.ac.in
 ```
-<p align="left">
+
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-  <div style="background: #8FA977; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #E15B5B; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #FFF4E0; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #4A3B38; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #B4C5A9; height: 20px; width: 25px;display: inline-block;"></div>
-</p>
+  ![FFF4E0](https://dummyimage.com/20x25/FFF4E0/FFF4E0)![B4C5A9](https://dummyimage.com/20x25/B4C5A9/B4C5A9)![8FA977](https://dummyimage.com/20x25/8FA977/8FA977)![E15B5B](https://dummyimage.com/20x25/E15B5B/E15B5B)![4A3B38](https://dummyimage.com/20x25/4A3B38/4A3B38)
+
 
 ```zsh
 > stats --user bitmap4 --bg-color transparent --theme panda
