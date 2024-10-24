@@ -10,7 +10,7 @@ bitmap4@github
 OS: Arch Linux, WSL Ubuntu on Windows 11, iOS
 Shell: zsh 5.8
 Pronouns: He/Him
-Uptime: {{ (b => `${new Date().getFullYear() - b.getFullYear()} years, ${new Date().getMonth() - b.getMonth()} months, ${new Date().getDate() - b.getDate()} days${new Date().getMonth() === b.getMonth() && new Date().getDate() === b.getDate() ? ' 🎂' : ''}`)(new Date(2006, 1, 4)) }}
+Uptime: {{ age }}
 Location: Hyderabad, IN
 Frameworks: React
 Languages: JavaScript, TypeScript,
@@ -19,14 +19,13 @@ Languages: JavaScript, TypeScript,
 Learning: Node.js, Next.js, Dart
 Hobbies: Gaming, Music
 Commits: {{ totalCommitsInPastYear }}
-Stars: {{ totalStars }}
 Discord: bitmap4
 Email: abhyudit.singh@research.iiit.ac.in
 ```
-<p align="left">
+
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-  {{ #colors }}<div style="background: #{{.}}; height: 20px; width: 25px;display: inline-block;"></div>{{ /colors }}
-</p>
+  {{ #colors }}![{{.}}](https://dummyimage.com/20x25/{{.}}/{{.}}){{ /colors }}
+
 
 ```zsh
 > stats --user bitmap4 --bg-color transparent --theme panda
