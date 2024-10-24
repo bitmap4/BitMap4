@@ -29,9 +29,10 @@ Email: abhyudit.singh@research.iiit.ac.in
 </p>
 
 ```zsh
-> stats --user bitmap4 --bg-color 000000 --theme tokyonight
+> stats --user bitmap4 --bg-color transparent --theme panda
 ```
 
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=bitmap4&show_icons=true&theme=tokyonight&bg_color=000000" alt="bitmap4's GitHub Stats" width="400" />
+![bitmap4's GitHub Stats](https://github-readme-stats.vercel.app/api?username=bitmap4&show_icons=true&theme=panda&bg_color=00000000)
+<!-- <img align="left" src="https://github-readme-stats.vercel.app/api?username=bitmap4&show_icons=true&theme=tokyonight&theme=transparent" alt="bitmap4's GitHub Stats" width="400" /> -->
 
 <!-- <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bitmap4&layout=compact&theme=tokyonight&bg_color=000000" alt="bitmap4's Top Languages" width="400" /> -->
