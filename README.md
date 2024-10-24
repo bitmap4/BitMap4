@@ -27,3 +27,10 @@ Email: abhyudit.singh@research.iiit.ac.in
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
   <div style="background: #8FA977; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #E15B5B; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #FFF4E0; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #4A3B38; height: 20px; width: 25px;display: inline-block;"></div><div style="background: #B4C5A9; height: 20px; width: 25px;display: inline-block;"></div>
 </p>
+
+```zsh
+stats --user bitmap4 --bg-color 000000 --theme tokyonight
+```
+
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=bitmap4&show_icons=true&theme=tokyonight&bg_color=000000" alt="bitmap4's GitHub Stats" height="200" style="margin-right: 20px" />
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bitmap4&layout=compact&theme=tokyonight&bg_color=000000" alt="bitmap4's Top Languages" height="200" />
