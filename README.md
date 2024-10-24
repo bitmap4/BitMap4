@@ -2,7 +2,7 @@
 > neofetch
 ```
 
-<img align="left" src="https://raw.githubusercontent.com/BitMap4/BitMap4/refs/heads/master/yotsuba.jpg" alt="yotsuba.jpg" width="320" /> 
+<img align="left" src="https://raw.githubusercontent.com/BitMap4/BitMap4/refs/heads/master/yotsuba.jpg" alt="yotsuba.jpg" width="360" /> 
 
 ```css
 bitmap4@github
@@ -23,7 +23,7 @@ Discord: bitmap4
 Email: abhyudit.singh@research.iiit.ac.in
 ```
 
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
   ![FFF4E0](https://dummyimage.com/20x25/FFF4E0/FFF4E0)![B4C5A9](https://dummyimage.com/20x25/B4C5A9/B4C5A9)![8FA977](https://dummyimage.com/20x25/8FA977/8FA977)![E15B5B](https://dummyimage.com/20x25/E15B5B/E15B5B)![4A3B38](https://dummyimage.com/20x25/4A3B38/4A3B38)
 
 
