@@ -10,7 +10,7 @@ bitmap4@github
 OS: Arch Linux, WSL Ubuntu on Windows 11, iOS
 Shell: zsh 5.8
 Pronouns: He/Him
-Uptime: 18 years, 8 months, 24 days
+Uptime: 18 years, 8 months, 25 days
 Location: Hyderabad, IN
 Frameworks: React
 Languages: JavaScript, TypeScript,
