@@ -78,7 +78,7 @@ async function main() {
   const colors = ["FFF4E0", "B4C5A9", "8FA977", "E15B5B", "4A3B38"];
 
   const age = (b => `${new Date().getFullYear() - b.getFullYear()} years, ${new Date().getMonth() - b.getMonth()} months, ${new Date().getDate() - b.getDate()} days${new Date().getMonth() === b.getMonth() && new Date().getDate() === b.getDate() ? ' 🎂' : ''}`)(new Date(2006, 1, 4))
-  await updateReadme({ totalCommitsInPastYear, colors, age });
+  await updateReadme({ 0, totalCommitsInPastYear, colors, age });
 }
 
 main();
