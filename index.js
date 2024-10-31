@@ -1,6 +1,7 @@
 require("dotenv").config();
 const Mustache = require("mustache");
 const fs = require("fs");
+import https from 'https';
 
 const GITHUB_API_URL = 'https://api.github.com/graphql';
 const TOKEN = process.env.GH_ACCESS_TOKEN;
@@ -22,29 +23,44 @@ async function getCommitCount(username, from, to) {
     to: to || null      // ISO 8601 format, e.g., "2023-12-31T23:59:59Z"
   };
 
-  try {
-    const response = await fetch(GITHUB_API_URL, {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${TOKEN}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ query, variables })
+  const options = {
+    hostname: 'api.github.com',
+    path: '/graphql',
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${TOKEN}`,
+      'Content-Type': 'application/json',
+      'User-Agent': 'Node.js'
+    }
+  };
+
+  return new Promise((resolve, reject) => {
+    const req = https.request(options, (res) => {
+      let data = '';
+
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+
+      res.on('end', () => {
+        const result = JSON.parse(data);
+        if (result.errors) {
+          console.error('GraphQL errors:', result.errors);
+          resolve(null);
+        } else {
+          resolve(result.data.user.contributionsCollection.totalCommitContributions);
+        }
+      });
     });
 
-    const result = await response.json();
+    req.on('error', (error) => {
+      console.error('Error fetching commit count:', error);
+      reject(error);
+    });
 
-    if (result.errors) {
-      console.error('GraphQL errors:', result.errors);
-      return null;
-    }
-
-    const commitCount = result.data.user.contributionsCollection.totalCommitContributions;
-    return commitCount;
-  } catch (error) {
-    console.error('Error fetching commit count:', error);
-    return null;
-  }
+    req.write(requestBody);
+    req.end();
+  });
 }
 
 const toISOStringWithoutMs = (date) => {
