@@ -1,7 +1,7 @@
 require("dotenv").config();
 const Mustache = require("mustache");
 const fs = require("fs");
-import https from 'https';
+const https = require('https');
 
 const GITHUB_API_URL = 'https://api.github.com/graphql';
 const TOKEN = process.env.GH_ACCESS_TOKEN;
