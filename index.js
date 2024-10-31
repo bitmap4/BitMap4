@@ -17,11 +17,7 @@ async function getCommitCount(username, from, to) {
     }
   `;
 
-  const variables = {
-    username: username,
-    from: from || null, // ISO 8601 format, e.g., "2023-01-01T00:00:00Z"
-    to: to || null      // ISO 8601 format, e.g., "2023-12-31T23:59:59Z"
-  };
+  const requestBody = JSON.stringify({ query, variables });
 
   const options = {
     hostname: 'api.github.com',
