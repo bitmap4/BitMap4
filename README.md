@@ -18,7 +18,7 @@ Languages: JavaScript, TypeScript,
            C, C++, MarkDown, LaTeX,
 Learning: Next.js, Dart
 Hobbies: Gaming, Music
-Commits: 98
+Commits: 100
 Discord: bitmap4
 Email: abhyudit.singh@research.iiit.ac.in
 ```
