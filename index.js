@@ -95,7 +95,29 @@ async function main() {
   const colors = ["FFF4E0", "B4C5A9", "8FA977", "E15B5B", "4A3B38"];
   const totalStars = 0;
 
-  const age = (b => `${new Date().getFullYear() - b.getFullYear()} years, ${new Date().getMonth() - b.getMonth()} months, ${new Date().getDate() - b.getDate()} days${new Date().getMonth() === b.getMonth() && new Date().getDate() === b.getDate() ? ' 🎂' : ''}`)(new Date(2006, 1, 4))
+  const age = (birthDate => {
+    const today = new Date();
+    let years = today.getFullYear() - birthDate.getFullYear();
+    let months = today.getMonth() - birthDate.getMonth();
+    let days = today.getDate() - birthDate.getDate();
+
+    if (days < 0) {
+      months--;
+      const lastMonth = new Date(today.getFullYear(), today.getMonth(), 0);
+      days += lastMonth.getDate();
+    }
+
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+
+    return `${years} years, ${months} months, ${days} days${
+      today.getMonth() === birthDate.getMonth() && 
+      today.getDate() === birthDate.getDate() ? ' 🎂' : ''
+    }`;
+  })(new Date(2006, 1, 4));
+  
   await updateReadme({ totalStars, totalCommitsInPastYear, colors, age });
 }
 
