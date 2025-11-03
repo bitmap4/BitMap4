@@ -10,7 +10,7 @@ bitmap4@github
 OS: Arch Linux, WSL Ubuntu on Windows 11, iOS
 Shell: zsh 5.8
 Pronouns: He/Him
-Uptime: 19 years, 8 months, 29 days
+Uptime: 19 years, 8 months, 30 days
 Location: Hyderabad, IN
 Frameworks: React
 Languages: JavaScript, TypeScript,
@@ -18,7 +18,7 @@ Languages: JavaScript, TypeScript,
            C, C++, MarkDown, LaTeX,
 Learning: Next.js, Dart
 Hobbies: Gaming, Music
-Commits: 136
+Commits: 133
 Discord: bitmap4
 Email: abhyudit.singh@research.iiit.ac.in
 ```
