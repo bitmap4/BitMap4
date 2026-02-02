@@ -7,16 +7,11 @@
 ```css
 bitmap4@github
 -------------------------
-OS: Arch Linux, WSL Ubuntu on Windows 11, iOS
-Shell: zsh 5.8
+OS: macOS Sequoia 15.7.3 arm64
+Shell: fish 4.0.2
 Pronouns: He/Him
 Uptime: 19 years, 11 months, 29 days
 Location: Hyderabad, IN
-Frameworks: React
-Languages: JavaScript, TypeScript,
-           HTML, CSS, SQL, Python,
-           C, C++, MarkDown, LaTeX,
-Learning: Next.js, Dart
 Hobbies: Gaming, Music
 Commits: 53
 Discord: bitmap4
