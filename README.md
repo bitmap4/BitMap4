@@ -10,10 +10,10 @@ bitmap4@github
 OS: macOS Sequoia 15.7.3 arm64
 Shell: fish 4.0.2
 Pronouns: He/Him
-Uptime: 19 years, 11 months, 30 days
+Uptime: 20 years, 0 months, 0 days 🎂
 Location: Hyderabad, IN
 Hobbies: Gaming, Music
-Commits: 52
+Commits: 49
 Discord: bitmap4
 Email: abhyudit.singh@research.iiit.ac.in
 ```
