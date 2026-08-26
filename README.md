@@ -13,7 +13,7 @@ Pronouns: He/Him
 Uptime: 20 years, 6 months, 22 days
 Location: Hyderabad, IN
 Hobbies: Gaming, Music
-Commits This Year: 44
+Commits This Year: 45
 Discord: bitmap4
 Email: abhyudit.singh@research.iiit.ac.in
 ```
